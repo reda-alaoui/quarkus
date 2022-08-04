@@ -40,7 +40,7 @@ import io.quarkus.vertx.core.deployment.CoreVertxBuildItem;
 @BuildSteps(onlyIf = OpenTelemetryEnabled.class)
 public class OpenTelemetryProcessor {
     static class RestClientAvailable implements BooleanSupplier {
-        private static final boolean IS_REST_CLIENT_AVAILABLE = isClassPresent("javax.ws.rs.client.ClientRequestFilter");
+        private static final boolean IS_REST_CLIENT_AVAILABLE = isClassPresent("jakarta.ws.rs.client.ClientRequestFilter");
 
         @Override
         public boolean getAsBoolean() {

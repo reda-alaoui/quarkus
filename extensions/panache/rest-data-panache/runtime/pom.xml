@@ -6,7 +6,7 @@
     <parent>
         <artifactId>quarkus-rest-data-panache-parent</artifactId>
         <groupId>io.quarkus</groupId>
-        <version>999-SNAPSHOT</version>
+        <version>999-jakarta-SNAPSHOT</version>
     </parent>
 
     <artifactId>quarkus-rest-data-panache</artifactId>
@@ -23,7 +23,7 @@
         </dependency>
         <dependency>
             <groupId>org.jboss.spec.javax.ws.rs</groupId>
-            <artifactId>jboss-jaxrs-api_2.1_spec</artifactId>
+            <artifactId>jboss-jaxrs-api_3.0_spec</artifactId>
         </dependency>
         <dependency>
             <groupId>jakarta.validation</groupId>
